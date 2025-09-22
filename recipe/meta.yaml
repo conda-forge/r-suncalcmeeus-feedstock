@@ -28,14 +28,14 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
-    - r-dplyr >=1.0.9
-    - r-lubridate >=1.9.3
-    - r-tibble >=3.1.6
+    - r-dplyr >=1.1.4
+    - r-lubridate >=1.9.4
+    - r-tibble >=3.3.0
   run:
     - r-base
-    - r-dplyr >=1.0.9
-    - r-lubridate >=1.9.3
-    - r-tibble >=3.1.6
+    - r-dplyr >=1.1.4
+    - r-lubridate >=1.9.4
+    - r-tibble >=3.3.0
 
 test:
   commands:
